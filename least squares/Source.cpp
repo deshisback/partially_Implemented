@@ -102,7 +102,18 @@ int main(int argc, char* argv[]) {
 	drawLines();
 	SDL_SetRenderDrawColor(ren, 255, 0, 0, 255);
 
-	double m = 9.1, v = 1, q = 1.6, b = 3, alpha = 180.0;
+	double m, v, q, b, alpha;
+	std::cout << "¬ведите данные частицы: " << std::endl;
+	std::cout << "m = ";
+	std::cin >> m;
+	std::cout << "v = ";
+	std::cin >> v;
+	std::cout << "q = ";
+	std::cin >> q;
+	std::cout << "b = ";
+	std::cin >> b;
+	std::cout << "angle = ";
+	std::cin >> alpha;
 	double x, y;
 	int sx1, sy1, sx2, sy2;
 	double rad = m * v / (q * b);
