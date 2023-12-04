@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Глеб\source\repos\least squares\least squares\Source.cpp(54,12): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Глеб\source\repos\least squares\least squares\Source.cpp(55,12): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Глеб\source\repos\least squares\least squares\Source.cpp(69,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  least squares.vcxproj -> C:\Users\Глеб\source\repos\least squares\x64\Debug\least squares.exe
